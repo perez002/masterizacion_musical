@@ -1,0 +1,23 @@
+site_name: Masterización Musical
+
+nav:
+  - Inicio: index.md
+  - Sección 1:
+    - ¿Qué es la Masterización?: seccion1/que_es_masterizacion.md
+    - Herramientas Esenciales: seccion1/herramientas.md
+  - Sección 2:
+    - Técnicas Básicas: seccion2/tecnicas_basicas.md
+    - Errores Comunes: seccion2/errores_comunes.md
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+Autor: David Pérez
+
+Descripcion: Guia básica y breve sobre la masterización en la producción musical.
+
